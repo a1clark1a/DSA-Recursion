@@ -13,4 +13,4 @@ const powerCalculator = (val, exp) => {
   }
 };
 
-console.log(powerCalculator(10, 3));
+console.log(powerCalculator(10, 2));

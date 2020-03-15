@@ -9,9 +9,8 @@ const countingSheep = input => {
   if (input === 0) {
     return console.log(input, ": All sheep jumps over the fence");
   } else {
-    console.log(input,  ": Another sheep jumps over the fence",)
-    return countingSheep(input - 1)
-    
+    console.log(input, ": Another sheep jumps over the fence");
+    return countingSheep(input - 1);
   }
 };
 
